@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_new_user"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView_main_activity_logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        app:srcCompat="@drawable/logo" />
+
+
+    <TextView
+        android:id="@+id/txt_view_join_now"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/inputfield_design"
+        android:clickable="true"
+        android:textSize="17dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Join Now"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/btn_already_have_account"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txt_view_join_now"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:text="Already Have An Account"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/txt_view_or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn_already_have_account"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:text="or"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <!--<view
+        android:layout_width="130dp"
+        android:layout_height="2dp"
+        android:layout_below="@+id/btn_already_have_account"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="55dp"/>
+
+    <view
+        android:layout_width="130dp"
+        android:layout_height="2dp"
+        android:layout_below="@+id/btn_already_have_account"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="223dp"/>-->
+
+    <Button
+        android:id="@+id/btn_login_via_google"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txt_view_or"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="#F5085C"
+        android:padding="10dp"
+        android:text="Login via Google"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="17dp" />
+
+</RelativeLayout>

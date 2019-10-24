@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">KitchenKhaas</string>
+
+    <string name="regster"><u>Register?</u></string>
+
+    <!--navigation drawer-->
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <!--Custom Dialog about_us-->
+    <string name="about_us">
+        <b>Kitchen Khaas</b> is a well-organized firm which is offering high-class quality of food and catering and we have decided to give the services to organizations.\n
+\n
+We are the first of its kind with a unique and distinctive style of catering and party decorations. Whenever and wherever you are going to give a party on any occasion wise Wedding, Valima, Mehndi, Aqeeqa, Birthday, Seminars and any kind of family get together, you may trust on us.\n
+\n
+We do not share our burden but in fact we take all your burden on our shoulders and keep you free from all headaches and you enjoy your free time or use it for other important businesses.\n
+\n
+For quality conscious people like you we offer a wide variety of best quality and selective continental and international foods of such a delicious taste which shall be felt and remembered by your honorable guests for a long time. To us food service in the party is equally important and we keep you and your guests more than satisfied in this respect as well.\n
+    </string>
+
+</resources>

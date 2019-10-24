@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "452309264136",
+    "firebase_url": "https://kitchen-khaas-d3d93.firebaseio.com",
+    "project_id": "kitchen-khaas-d3d93",
+    "storage_bucket": "kitchen-khaas-d3d93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452309264136:android:50017d476b0ad89a",
+        "android_client_info": {
+          "package_name": "com.example.technohem.kitchenkhaasuser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452309264136-vj8mc4e2l73eagiufgfehplae73bo3g7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.technohem.kitchenkhaasuser",
+            "certificate_hash": "39c216d03c20b1dbf1bd46037723f628c0263d96"
+          }
+        },
+        {
+          "client_id": "452309264136-valjc3nllkefo66huub0u97elu7dtaag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2GqcUHYXCod0Jfy3SfcejCMznlDla7GQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452309264136-valjc3nllkefo66huub0u97elu7dtaag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
